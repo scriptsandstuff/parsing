@@ -1,5 +1,5 @@
 # Automated extraction of historic geographic boundaries from current boundaries and preceeding Acts of Parliment.
-I am unable to find gemoetry data for Dail constituency boundaries prior to the Electoral Act 2009. The obvious solution is to ask if those geometries are available form the CSO or Osi but there is a way they can be recreated.
+With my [Dail app](https://scriptsandstuff.github.io/constituencies/) in mind. I am unable to find gemoetry data for Dail constituency boundaries prior to the Electoral Act 2009. The obvious solution is to ask if those geometries are available form the CSO or Osi but there is a way they can be recreated.
 
 Constituencies change over time as population changes. Constituencies are each made up of a grouping of Electoral Divisions. Electoral Divisions have a constant geometry; in general\*. Therefore, if we have the geometry of the Electoral Divisions and we know the Divisions in each group we can create the geometry for the constituencies.
 
